@@ -6,6 +6,9 @@ import krypt from "../../../public/images/krypt.png";
 import stake from "../../../public/images/stake.png";
 import treasureBox from "../../../public/images/treasureBox.png";
 import voom from "../../../public/images/voom.png";
+import portfolio from "../../../public/images/portfolio.png";
+import firebaseBlog from "../../../public/images/firebaseBlog.png";
+import gericht from "../../../public/images/gericht.png";
 
 const projects = [
   {
@@ -43,6 +46,24 @@ const projects = [
     description: "A project built for a hackathon ",
     image: voom,
     link: "https://voom-tau.vercel.app/",
+  },
+  {
+    title: "GERICHT",
+    description: "An website built for practice",
+    image: gericht,
+    link: "https://food-app-f7cfe.web.app/",
+  },
+  {
+    title: "Firebase Blog",
+    description: "A blog created with Firebase",
+    image: firebaseBlog,
+    link: "https://fir-blog-a7429.web.app/",
+  },
+  {
+    title: "My Previous Portfolio",
+    description: "My previous Portflio containing my previous projects",
+    image: portfolio,
+    link: "https://teejay012.github.io/my-portfolio/",
   },
 ];
 
