@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'heroBg': "url('../../public/images/heroBg.png')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
